@@ -5,6 +5,7 @@ import css from './ContactList.module.css'
 const ContactList = ({ contacts, children, deleteContact }) => (
   <div className={css.contacts}>
     <h2>Contacts</h2>
+    <p>Find contact by name</p>
     {children}
         <ul className={css.contactsList}>
       {contacts.map(({ id, name, number }) => (

@@ -4,7 +4,7 @@ import ContactForm from './ContactForm/ContactForm';
 import ContactList from './ContactList/ContactList';
 import Filter from './Filter/Filter';
 
- class App extends Component {
+ export class App extends Component {
   constructor() {
     super();
     this.state = {
@@ -68,6 +68,5 @@ import Filter from './Filter/Filter';
   }
 }
 
-export default App
 
 
