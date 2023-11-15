@@ -17,10 +17,9 @@
     background-color: #f3f6f9e0;
     border: none;
     color: #3e454c34;
-    cursor: pointer;
     padding: 10px;
     text-align: center;
-    transition: all 0.8s;
+    transition: all 0.5s;
     margin: 0 auto 0;
 }
 
